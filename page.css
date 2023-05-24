@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1528184039930-bd03972bd974?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4NDg2MjE4OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.708);
+  width: 95%;
+  max-width: 450px;
+  padding: 100px;
+  border-radius: 10px;
+  color: white;
+}
+
+input {
+  position: relative;
+  bottom: 40px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  right: 40px;
+  background-color: rgba(65, 65, 65, 0.581);
+  border: 1px solid rgba(255, 255, 255, 0.268);
+  outline: none;
+  color: white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.495);
+}
+button {
+  position: relative;
+  float: right;
+  bottom: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  left: 40px;
+  cursor: pointer;
+  background-color: rgba(65, 65, 65, 0.581);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+img {
+  position: relative;
+  right: 40px;
+}
+
+p {
+  position: relative;
+  right: 40px;
+}
+
+h2 {
+  position: relative;
+  right: 40px;
+}
+
+.container-menor {
+  display: flex;
+
+  align-items: center;
+    text-align: center;
+  flex-direction: row;
+}
+
+
+.container-menor > p{
+    text-transform: capitalize;
+    font-weight: bold
+}
+#local{
+    color: #e6fcff; 
+    text-transform: capitalize;
+    font-weight: bold;
+  
+}
